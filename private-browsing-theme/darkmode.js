@@ -53,7 +53,7 @@ document.querySelectorAll('tr').forEach(function(tr) {
 });
 
 document.querySelectorAll('h1, h2, h3, h4, h5, h6').forEach(function(header) {
-    header.color = 'white';
+    header.style.color = 'white';
 });
 
 document.querySelectorAll('a').forEach(function(link) {

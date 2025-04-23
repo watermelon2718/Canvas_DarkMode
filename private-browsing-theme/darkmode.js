@@ -13,6 +13,11 @@ document.querySelectorAll('.container').forEach(function(container) {
 });
 
 document.querySelectorAll('a').forEach(function(header) {
+    primary.style.color = 'white';
+    secondary.style.color = 'white';
+});
+
+document.querySelectorAll('a').forEach(function(header) {
     header.style.color = 'white';
 });
 

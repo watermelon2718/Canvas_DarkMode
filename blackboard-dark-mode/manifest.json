@@ -1,12 +1,12 @@
 {
   "manifest_version": 2,
-  "name": "Canvas Dark Mode",
+  "name": "Blackboard Dark Mode",
   "version": "2.0",
-  "description": "Sets a dark theme for Canvas",
+  "description": "Sets a dark theme for Blackboard",
 
   "content_scripts": [
     {
-      "matches": ["*://*.instructure.com/*"],
+      "matches": ["*://*.blackboard.com/*"],
       "js": ["darkmode.js"]
     }
   ],

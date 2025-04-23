@@ -52,6 +52,10 @@ document.querySelectorAll('tr').forEach(function(tr) {
     tr.style.color = 'white';
 });
 
+document.querySelectorAll('h1, h2, h3, h4, h5, h6').forEach(function(header) {
+    header.color = 'white';
+});
+
 document.querySelectorAll('a').forEach(function(link) {
     link.style.color = 'cyan';
 });

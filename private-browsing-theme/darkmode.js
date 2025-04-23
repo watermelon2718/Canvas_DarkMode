@@ -14,7 +14,7 @@ document.querySelectorAll('p').forEach(function(p) {
     p.style.backgroundColor = 'black';
 });
 
-// document.body.style.backgroundColor = 'black';
+document.body.style.backgroundColor = 'black';
 
 
 document.querySelectorAll('.container').forEach(function(container) {

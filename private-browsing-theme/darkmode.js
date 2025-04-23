@@ -1,10 +1,10 @@
 document.body.style.backgroundColor = 'black';
 
-document.querySelectorAll('p, h1, h2, h3, h4, h5, h6, span, a, ul, div, tr, .container').forEach(function(element) {
-    element.style.color = 'white';
-    element.style.backgroundColor = 'black';
-    link.style.color = 'cyan';
-});
+// document.querySelectorAll('p, h1, h2, h3, h4, h5, h6, span, a, ul, div, tr, .container').forEach(function(element) {
+//     element.style.color = 'white';
+//     element.style.backgroundColor = 'black';
+//     link.style.color = 'cyan';
+// });
 
 done
 document.querySelectorAll('p').forEach(function(p) {

@@ -37,6 +37,12 @@ document.querySelectorAll('ul').forEach(function(ul) {
     ul.style.backgroundColor = 'black';
 });
 
-document.querySelectorAll('ul').forEach(function(div) {
+document.querySelectorAll('div').forEach(function(div) {
     div.style.backgroundColor = 'black';
 });
+
+document.querySelectorAll('tr').forEach(function(tr) {
+    tr.style.backgroundColor = 'black';
+});
+
+

@@ -42,7 +42,6 @@ document.querySelectorAll('span').forEach(function(span) {
 document.querySelectorAll('ul').forEach(function(ul) {
     ul.style.backgroundColor = 'black';
     ul.style.color = 'white';
-    ul.style.accentColor = 'green';
 });
 
 document.querySelectorAll('div').forEach(function(div) {
@@ -60,6 +59,10 @@ document.querySelectorAll('tr').forEach(function(tr) {
 
 document.querySelectorAll('h1, h2, h3, h4, h5, h6').forEach(function(header) {
     header.style.color = 'white';
+});
+
+document.querySelectorAll('li').forEach(function(li) {
+    li.style.color = 'white';
 });
 
 document.querySelectorAll('a').forEach(function(link) {

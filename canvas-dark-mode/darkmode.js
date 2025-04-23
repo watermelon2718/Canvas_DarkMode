@@ -65,6 +65,10 @@ document.querySelectorAll('li').forEach(function(li) {
     li.style.color = 'white';
 });
 
+document.querySelectorAll('ToDoSidebarItem').forEach(function(ToDoSidebarItem) {
+    ToDoSidebarItem.style.color = 'white';
+});
+
 document.querySelectorAll('a').forEach(function(link) {
     link.style.color = 'cyan';
 });

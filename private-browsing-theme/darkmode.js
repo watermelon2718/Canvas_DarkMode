@@ -36,3 +36,7 @@ document.querySelectorAll('span').forEach(function(span) {
 document.querySelectorAll('ul').forEach(function(ul) {
     ul.style.backgroundColor = 'black';
 });
+
+document.querySelectorAll('ul').forEach(function(div) {
+    div.style.backgroundColor = 'black';
+});

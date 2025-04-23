@@ -35,14 +35,17 @@ document.querySelectorAll('span').forEach(function(span) {
 
 document.querySelectorAll('ul').forEach(function(ul) {
     ul.style.backgroundColor = 'black';
+    ul.style.color = 'white';
 });
 
 document.querySelectorAll('div').forEach(function(div) {
     div.style.backgroundColor = 'black';
+    div.style.color = 'white';
 });
 
 document.querySelectorAll('tr').forEach(function(tr) {
     tr.style.backgroundColor = 'black';
+    tr.style.color = 'white';
 });
 
 

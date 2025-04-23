@@ -4,8 +4,7 @@
   "version": "2.0",
   "description": "Extension that sets a dark theme for private windows",
   "background": {
-    "scripts": ["background.js"],
-    "matches": ["*://*.instructure.com*"]
+    "scripts": ["background.js"]
   },
 
   "content_scripts": [

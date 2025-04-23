@@ -44,6 +44,9 @@ document.querySelectorAll('ul').forEach(function(ul) {
 
 document.querySelectorAll('div').forEach(function(div) {
     div.style.backgroundColor = 'black';
+});
+
+document.querySelectorAll('div').forEach(function(div) {
     div.style.color = 'white';
 });
 

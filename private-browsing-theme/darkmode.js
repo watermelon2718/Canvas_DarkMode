@@ -35,6 +35,7 @@ document.querySelectorAll('a').forEach(function(header) {
 
 document.querySelectorAll('span').forEach(function(span) {
     span.style.backgroundColor = 'black';
+    span.style.color = 'white';
 });
 
 document.querySelectorAll('ul').forEach(function(ul) {

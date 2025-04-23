@@ -15,3 +15,7 @@ document.querySelectorAll('.container').forEach(function(container) {
 document.querySelectorAll('a').forEach(function(link) {
     link.style.color = 'cyan';
 });
+
+document.querySelectorAll('a').forEach(function(header) {
+    header.style.color = 'white';
+});

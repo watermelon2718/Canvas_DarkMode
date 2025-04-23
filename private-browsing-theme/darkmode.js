@@ -1,3 +1,4 @@
+document.body.style.backgroundColor = 'black';
 
 document.querySelectorAll('p, h1, h2, h3, h4, h5, h6, span, a, ul, div, tr, .container').forEach(function(element) {
     element.style.color = 'white';
@@ -14,7 +15,7 @@ document.querySelectorAll('p, h1, h2, h3, h4, h5, h6, span, a, ul, div, tr, .con
 //     p.style.backgroundColor = 'black';
 // });
 
-// document.body.style.backgroundColor = 'black';
+
 
 
 // document.querySelectorAll('.container').forEach(function(container) {

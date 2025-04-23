@@ -1,12 +1,8 @@
 {
   "manifest_version": 2,
-  "name": "Private browsing theme",
+  "name": "Canvas Dark Mode",
   "version": "2.0",
-  "description": "Extension that sets a dark theme for private windows",
-  
-  "background": {
-    "scripts": ["background.js"]
-  },
+  "description": "Sets a dark theme for Canvas",
 
   "content_scripts": [
     {

@@ -10,12 +10,11 @@ document.querySelectorAll('p').forEach(function(p) {
     p.style.color = 'white';
 });
 
-document.body.style.backgroundColor = 'black';
-
-
 document.querySelectorAll('p').forEach(function(p) {
     p.style.backgroundColor = 'black';
 });
+
+// document.body.style.backgroundColor = 'black';
 
 
 document.querySelectorAll('.container').forEach(function(container) {

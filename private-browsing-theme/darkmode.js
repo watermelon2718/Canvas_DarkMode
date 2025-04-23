@@ -27,6 +27,7 @@ document.querySelectorAll('.container').forEach(function(container) {
 
 document.querySelectorAll('a').forEach(function(header) {
     header.style.color = 'white';
+    header.style.backgroundColor = 'black';
 });
 
 // document.querySelectorAll('p, h1, h2, h3, h4, h5, h6, span, a').forEach(function(element) {

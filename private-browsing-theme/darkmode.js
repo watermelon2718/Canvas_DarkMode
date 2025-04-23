@@ -7,3 +7,7 @@ document.querySelectorAll('p').forEach(function(p) {
 });
 
 document.body.style.backgroundColor = 'black';
+
+document.querySelectorAll('.container').forEach(function(container) {
+    container.style.backgroundColor = 'black';
+});

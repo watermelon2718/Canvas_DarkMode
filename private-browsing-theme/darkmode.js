@@ -42,6 +42,7 @@ document.querySelectorAll('span').forEach(function(span) {
 document.querySelectorAll('ul').forEach(function(ul) {
     ul.style.backgroundColor = 'black';
     ul.style.color = 'white';
+    ul.style.accentColor = 'green';
 });
 
 document.querySelectorAll('div').forEach(function(div) {

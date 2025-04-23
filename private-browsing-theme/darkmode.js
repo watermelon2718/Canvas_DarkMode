@@ -32,3 +32,7 @@ document.querySelectorAll('p, h1, h2, h3, h4, h5, h6, span, a').forEach(function
 document.querySelectorAll('span').forEach(function(span) {
     span.style.backgroundColor = 'black';
 });
+
+document.querySelectorAll('ul').forEach(function(ul) {
+    ul.style.backgroundColor = 'black';
+});

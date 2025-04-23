@@ -6,7 +6,7 @@
 
   "content_scripts": [
     {
-      "matches": ["*://*.blackboard.com/*"],
+      "matches": ["*://*.blackboard.*/*"],
       "js": ["darkmode.js"]
     }
   ],

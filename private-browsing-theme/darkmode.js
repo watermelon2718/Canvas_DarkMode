@@ -20,10 +20,10 @@ document.querySelectorAll('.container').forEach(function(container) {
     container.style.backgroundColor = 'black';
 });
 
-document.querySelectorAll('a').forEach(function(header) {
-    primary.style.color = 'white';
-    secondary.style.color = 'white';
-});
+// document.querySelectorAll('a').forEach(function(header) {
+//     primary.style.color = 'white';
+//     secondary.style.color = 'white';
+// });
 
 document.querySelectorAll('a').forEach(function(header) {
     header.style.color = 'white';
@@ -44,11 +44,11 @@ document.querySelectorAll('ul').forEach(function(ul) {
 });
 
 document.querySelectorAll('div').forEach(function(div) {
-    div.style.backgroundColor = 'black';
+    div.style.color = 'white';
 });
 
 document.querySelectorAll('div').forEach(function(div) {
-    div.style.color = 'white';
+    div.style.backgroundColor = 'black';
 });
 
 document.querySelectorAll('tr').forEach(function(tr) {

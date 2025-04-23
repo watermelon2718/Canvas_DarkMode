@@ -29,9 +29,9 @@ document.querySelectorAll('a').forEach(function(header) {
     header.style.color = 'white';
 });
 
-document.querySelectorAll('p, h1, h2, h3, h4, h5, h6, span, a').forEach(function(element) {
-    element.style.color = 'white';
-});
+// document.querySelectorAll('p, h1, h2, h3, h4, h5, h6, span, a').forEach(function(element) {
+//     element.style.color = 'white';
+// });
 
 document.querySelectorAll('span').forEach(function(span) {
     span.style.backgroundColor = 'black';

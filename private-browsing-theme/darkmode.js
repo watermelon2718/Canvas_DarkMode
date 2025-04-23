@@ -30,9 +30,7 @@ document.querySelectorAll('a').forEach(function(header) {
     header.style.color = 'white';
 });
 
-document.querySelectorAll('a').forEach(function(link) {
-    link.style.color = 'cyan';
-});
+
 
 document.querySelectorAll('p, h1, h2, h3, h4, h5, h6, span, a').forEach(function(element) {
     element.style.color = 'white';
@@ -55,6 +53,10 @@ document.querySelectorAll('div').forEach(function(div) {
 document.querySelectorAll('tr').forEach(function(tr) {
     tr.style.backgroundColor = 'black';
     tr.style.color = 'white';
+});
+
+document.querySelectorAll('a').forEach(function(link) {
+    link.style.color = 'cyan';
 });
 
 

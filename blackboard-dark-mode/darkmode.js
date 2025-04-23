@@ -57,6 +57,11 @@ document.querySelectorAll('tr').forEach(function(tr) {
     tr.style.color = 'white';
 });
 
+document.querySelectorAll('body').forEach(function(body) {
+    body.style.backgroundColor = 'black';
+    body.style.color = 'white';
+});
+
 document.querySelectorAll('h1, h2, h3, h4, h5, h6').forEach(function(header) {
     header.style.color = 'white';
 });

@@ -5,3 +5,5 @@ document.querySelectorAll('p').forEach(function(p) {
 document.querySelectorAll('p').forEach(function(p) {
     p.style.backgroundColor = 'black';
 });
+
+document.body.style.backgroundColor = 'black';

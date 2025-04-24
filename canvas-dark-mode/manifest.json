@@ -15,7 +15,7 @@
 
   "browser_specific_settings": {
     "gecko": {
-      "id": "canvas-dark-mode@mozilla.org",
+      "id": "canvas-dark-mode",
       "strict_min_version": "58.0"
     }
   }
